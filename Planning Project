@@ -1,0 +1,53 @@
+// // ---- How To Plan a Web Project -----
+/** 
+// 1. Concept- User Stories = a descripton of the functionality from the user's perspective. All user stories are put together to describe the entire application.
+// 2. Features. these user stories give us an idea of all the features need for the app.
+// 3. Flowchart -  Put all the features into a nice flowchart.
+// 4. Architecture -  How are we going to organise our code and what JS features will be used. The goal of this step is to simply stop and think about how we will implement all this functionality.
+// ^^^ THE PLANNING STEP
+// 5. The Development Step
+
+// THE USER STORY - Common Format: As a [type of user], I want [an action] so that [a benefit].
+// eg.1: As a user, I want to log my running workouts with locations , distance, time, pace and steps/min, so that I can keep a log of all my running.
+// eg.2: As a user, I want to log my cycling workouts with locations , distance, time, speed and elevation gain, so that I can keep a log of all my cycling.
+// eg.3: As a user, IO want to see all my workouts at a glance, so i can easily track my progress over time.
+// eg.4: As a user, I want to also see my workouts on a map, so I can easily see where I work out the  most.
+// eg.5: As a user, I want to see all my workouts when I leave the app and come back later, so that I can continue using the app.
+
+// THE FEATURES:
+// From user story 1 --
+// - Map where user clicks to add new workout(best way to get location coords)
+// - Geolocation to display map at current location ( more user frienmdly)
+// - Form to input distance, time, pace, steps/minute
+// From user story 2 --
+// - Form to input distance, time, speed, elevation gain.
+// From user story 3--
+// - Display all workouts in a list
+// From user story 4--
+// - Display all workouts on the map
+// From user story 5--
+// - Store workout data right in the browser using local storage API
+// - On page load, read the saved data from local storage and display.
+// Added later
+// - Move map to workout location once clicked.
+
+// THE FLOWCHART
+// -- in the starter file
+// In th real world, you dont have to come up with the final flowchart right in the planning phase. It's normal that it changes throughout implementation.
+
+// THE ARCHITECTURE
+// -- Just like the flow chart, we don't always need to have the perfect final architecture figured out before implementation. So we can first do some experiments, play around with the code, and only then, think about the architecture for the final project in case. Of course we can do it right in the beginning, but it's not always necessary.
+// -- So to start this project, we will actually simply start coding, and starting to implement the features according to the flow chart that we just developed. Then as we start to need more organization, and ways to manage our data, we will come back to thinking about the architecture.
+*/
+
+// FEATURES TO ADD ON IN FUTURE 
+// 1. ability to edit a workout
+// 2. ability tpo delete a workout
+// 3. ability to delete all workouts
+// 4. ability to sort workouts by a certain field
+// 5. Re-build Running and Cycling objects coming from local storage
+// 6. More realistic error and confirmation messages
+// 7. Ability to position the map to show all workouts 
+// 8. Ability to draw lines and shapes instead of just points
+// 9. Geocode loaction from coordinates ("run in faro, Portugal") 
+// 10. Display weather data for workout time and place 
