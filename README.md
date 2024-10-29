@@ -14,3 +14,11 @@ Mapty-App/
 ├── script.js         # Core app logic
 └── style.css         # Styling and layout
 ```
+
+How to run:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/JamesDMcG/Mapty-App.git
+```
+2. Open index.html in a web browser.
